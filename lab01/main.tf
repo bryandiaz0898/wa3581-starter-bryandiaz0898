@@ -17,3 +17,11 @@ resource "aws_s3_bucket" "learning_bucket" {
     Name = "TF Advanced Lab 1 Bucket"
   }
 }
+
+resource "aws_s3_bucket" "learning_bucket2" {
+  bucket = "tf-adv-lab01-${random_string.suffix.result}-2"
+
+  tags = {
+    Name = "TF Advanced Lab 1 Bucket"
+  }
+}
