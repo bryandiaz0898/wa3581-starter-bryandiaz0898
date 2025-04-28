@@ -9,7 +9,12 @@ terraform {
       version = "~> 3.1"
     }
   }
-
+    cloud {
+        organization = "tf-advanced-labs-bryandiaz0898"
+        workspaces {
+        name = "lab01"
+        }
+    }
   # Backend is configured implicitly by HCP Terraform Workspace
 }
 
