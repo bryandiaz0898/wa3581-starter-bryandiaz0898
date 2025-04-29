@@ -23,3 +23,5 @@ References:
 https://github.com/demo3k-terraform/terraform-aws-tuesday-network
 
 https://github.com/InfraCodeOps/terraform-aws-sqs-secure.git
+
+https://semver.org
