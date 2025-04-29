@@ -17,3 +17,7 @@ In production, HCP Workspace often ties to:
 - **Top-level dir in monorepo:** e.g., `payment-app-prod` workspace → `company-mono-repo.git` w/ dir `apps/payment-service/production/`.
 
 Lab setup mimics this by scoping HCP to `labXX/`, letting you practice VCS workflow in a simplified way. Key to grasp for real-world use.
+
+References:
+
+https://github.com/demo3k-terraform/terraform-aws-tuesday-network
