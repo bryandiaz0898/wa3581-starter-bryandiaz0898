@@ -21,3 +21,5 @@ Lab setup mimics this by scoping HCP to `labXX/`, letting you practice VCS workf
 References:
 
 https://github.com/demo3k-terraform/terraform-aws-tuesday-network
+
+https://github.com/InfraCodeOps/terraform-aws-sqs-secure.git
